@@ -180,3 +180,27 @@ section.page-section {
   margin-bottom: 4rem;
 }
 
+.v-btn {
+  background-color: rgba(91, 65, 187, 1) !important;
+  width: 131px !important;
+  height: 36px !important;
+  border-radius: 6px;
+  padding: 11px 24px;
+  color: rgba(251, 251, 253, 1);
+  font-size: 16px;
+  font-family: Avenir, sans-serif;
+
+  &:hover {
+    height: 46px !important;
+  }
+  &:focus {
+    height: 46px !important;
+    background-color: rgba(66, 39, 169, 1) !important;
+  }
+  &[disabled] {
+    background-color: rgba(91, 65, 187, 0.6) !important;
+  }
+  &.fixed-width {
+    width: 311px !important;
+  }
+}
